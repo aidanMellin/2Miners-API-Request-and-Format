@@ -5,7 +5,7 @@ import requests
 import pprint
 import math
 
-#ID = "0xA34eB873b4ffB1142948e34Dd50EE232EA15C5d3" #To be moved to .env in DB
+ID = "0xA34eB873b4ffB1142948e34Dd50EE232EA15C5d3" #To be moved to .env in DB
 
 def request(ID,call):
     """
@@ -54,7 +54,7 @@ def get_all(hr, bal, dec, wkrs):
     Returns:
         [str]: Pretty printed version
     """
-     
+    
     spacer = ret_str = "| "+ "-"*len(ID) +" |\n" #Spacer in between lines (nice looking)
     ret_str = spacer #Init the string with a topper to the box as spacer
     
