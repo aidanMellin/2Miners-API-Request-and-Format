@@ -5,7 +5,7 @@ import requests
 import pprint
 import math
 
-ID = "0xA34eB873b4ffB1142948e34Dd50EE232EA15C5d3" #To be moved to .env in DB
+ID = "0xA34eB873b4ffB1142948e34Dd50EE232EA15C5d3" #This is my ID, but it isn't a secret value.
 
 def request(ID,call):
     """
